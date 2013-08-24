@@ -10,6 +10,7 @@
   	"request": "2.27.x"
   },
   "author": "Peter Koraca",
+  "email": "info@eveningscode.com",
   "license": "MIT",
   "keywords": ["couchDB", "couch", "request"],
   "repository":{
