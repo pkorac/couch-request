@@ -1,0 +1,14 @@
+{
+  "name": "couch-request",
+  "version": "0.0.0",
+  "description": "Couch db wrapper for Request",
+  "main": "couch-request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  	"request": "2.27.x"
+  },
+  "author": "Peter Koraca",
+  "license": "BSD"
+}
