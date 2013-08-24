@@ -6,7 +6,7 @@ A minimal module that adds just one level of abstraction on top of [Request](htt
 #### Install:
 `npm install couch-request`
 
-#### Use:
+#### Configure:
 
 Require the module:
 ````javascript
@@ -20,9 +20,8 @@ var database = couchrequest( {databaseUrl: [DATABASE URL] } );
 Example DATABASE URL if you want to use CouchDB running on localhost: http://127.0.0.1:5984/reqtest
 
 
-Get data:
-
-database( path, callback(err, results) ); // path for example "_all_docs"
+#### Get data:
+database( path, callback(err, results) );
 ````javascript
 database("_all_docs", function(err, results){
 	if( err ) {
@@ -33,8 +32,7 @@ database("_all_docs", function(err, results){
 });
 ````
 
-Post data:
-
+#### Post data:
 database( path, object(s)ToStore, callback(err, results) );
 ````javascript
 //database("", {name: "peter"}, function(err, data){
