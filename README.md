@@ -33,7 +33,7 @@ database("_all_docs", function(err, results){
 #### Post data:
 database( path, object(s)ToStore, callback(err, results) );
 ````javascript
-//database("", {name: "peter"}, function(err, data){
+database("", {name: "peter"}, function(err, data){
 	if( err ) {
 		// an error occurred
 	} else{
