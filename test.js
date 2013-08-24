@@ -10,7 +10,7 @@ var database = couchrequest( {databaseUrl: "http://127.0.0.1:5984/reqtest" } );
 
 //database("_all_docs", "burek", function(err, data){
 //database("", {name: "peter"}, function(err, data){
-database("_all_docs", function(err, data){
+npdatabase("_all_docs", function(err, data){
 	if( err ) {
 		console.log( err );
 	} else{
