@@ -1,4 +1,4 @@
-couch-request
-=============
+# Couch-Request
 
-Simple CouchDB wrapper for Request
+## Simple CouchDB wrapper for Request
+
