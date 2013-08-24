@@ -1,5 +1,3 @@
-### !In the making and testing!
-
 # Couch-Request
 A minimal module that adds just one level of abstraction on top of [Request](https://github.com/mikeal/request).
 
@@ -50,5 +48,10 @@ As you can see getting and posting stuff to and from the database is fairly simp
 The database function takes two or three arguments. If you provide two (the path and callback) couch-request will make a GET request for you. If you provide three (path, the object and callback), couch-request will make a POST request for you, posting the object passed in as the request body.
 
 
+Copyright (c) 2013 Peter Koraca
+[licence](https://raw.github.com/pkorac/couch-request/master/licence.txt)
+
+
 Have fun,
+
 Peter
