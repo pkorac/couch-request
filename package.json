@@ -1,7 +1,7 @@
 {
   "name": "couch-request",
   "version": "0.0.1",
-  "description": "Simple CouchDB wrapper for Request",
+  "description": "A really minimal CouchDB client",
   "main": "couch-request.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,16 @@
   	"request": "2.27.x"
   },
   "author": "Peter Koraca",
-  "license": "BSD"
+  "license": "MIT",
+  "keywords": ["couchDB", "couch", "request"],
+  "repository":{
+	  "type": "git",
+	  "url": "git@github.com:pkorac/couch-request.git"
+  },
+  "engines":{
+	  "node": "*"
+  },
+  "bugs":{
+	  "url": "https://github.com/pkorac/couch-request/issues"
+  }
 }

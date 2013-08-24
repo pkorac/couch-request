@@ -1,5 +1,5 @@
 # Couch-Request
-A minimal module that adds just one level of abstraction on top of [Request](https://github.com/mikeal/request).
+A really minimal CouchDB client module that adds just one level of abstraction on top of [Request](https://github.com/mikeal/request).
 
 #### Install:
 `npm install couch-request`
