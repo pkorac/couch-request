@@ -21,6 +21,7 @@ Example DATABASE URL if you want to use CouchDB running on localhost: http://127
 
 
 Get data:
+
 database( path, callback(err, results) ); // path for example "_all_docs"
 ````javascript
 database("_all_docs", function(err, results){
@@ -33,6 +34,7 @@ database("_all_docs", function(err, results){
 ````
 
 Post data:
+
 database( path, object(s)ToStore, callback(err, results) );
 ````javascript
 //database("", {name: "peter"}, function(err, data){
