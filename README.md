@@ -42,9 +42,11 @@ database( path, object(s)ToStore, callback(err, results) );
 		// do stuff with results
 	}
 });
+````
 
 
 As you can see getting and posting stuff to and from the database is fairly simple.
+
 The database function takes two or three arguments. If you provide two (the path and callback) couch-request will make a GET request for you. If you provide three (path, the object and callback), couch-request will make a POST request for you, posting the object passed in as the request body.
 
 
