@@ -49,7 +49,9 @@ The database function takes two or three arguments. If you provide two (the path
 
 
 Copyright (c) 2013 Peter Koraca
+
 [licence](https://raw.github.com/pkorac/couch-request/master/licence.txt)
+
 
 
 Have fun,
