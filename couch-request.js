@@ -6,10 +6,10 @@ function couchrequest( newOptions ){
 
 	if ( newOptions && typeof newOptions == "object" && 
 		 newOptions.databaseUrl && newOptions.databaseUrl.length > 0 ) {		
-		
+
+		var baseUrl = newOptions.databaseUrl;
 		var options = {
 			method: "GET",
-			url: newOptions.databaseUrl,
 			headers: {"Content-Type": "application/json"}
 		};
 		
@@ -21,7 +21,7 @@ function couchrequest( newOptions ){
 				var path = arguments[0];
 				var callback = arguments[1];	
 				
-				options.url += "/" + path;				
+				options.url = baseUrl + "/" + path;				
 
 				// Make the request
 				request( options, function(err, res, body){
@@ -60,6 +60,7 @@ function couchrequest( newOptions ){
 					var encodedObject = JSON.stringify( theObject );
 					options.method = "POST";					
 					options.body = encodedObject;
+					options.url = baseUrl + "/" + path;
 					
 					// Make the request
 					request( options, function(err, res, body){

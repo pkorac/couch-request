@@ -15,5 +15,6 @@ database("_all_docs", function(err, data){
 		console.log( err );
 	} else{
 		console.log( util.inspect( data, {colors: true} ) );
+		
 	}
 });
